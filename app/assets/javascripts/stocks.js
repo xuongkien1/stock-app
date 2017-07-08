@@ -1,5 +1,9 @@
 var init_stock_lookup;
 
+/*global $*/
+/*global show_spinner*/
+/*global hide_spinner*/
+
 init_stock_lookup = function() {
     
     $('#stock-lookup-form').on('ajax:before', function(event, data, status){
